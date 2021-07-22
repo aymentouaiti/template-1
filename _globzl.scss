@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+
+  min-height: 10vh;
+  margin: auto;
+}
+h1 {
+  font-size: $header1;
+}
+
+li,
+button,
+label,
+input,
+p,
+a {
+  font-size: $text;
+}
+
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h4,
+h5 {
+  font-size: $header4;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Varela Round", sans-serif;
+  scroll-behavior: smooth;
+}
